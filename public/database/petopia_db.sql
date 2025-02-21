@@ -41,9 +41,7 @@ CREATE TABLE `leads` (
 INSERT INTO `leads` (`id`, `name`, `email`, `created_at`) VALUES
 (12, 'memoona', 'moonamalik500@gmail.com', '2025-02-14 19:02:12');
 
---
--- Indexes for dumped tables
---
+
 
 --
 -- Indexes for table `leads`
@@ -63,6 +61,3 @@ ALTER TABLE `leads`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
