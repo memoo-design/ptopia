@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $sql = "INSERT INTO leads (name, email) VALUES ('$name', '$email')";
     if ($conn->query($sql) === TRUE) {
-        header("Location: thank_you.html");
+        header("Location: public/html/thank_you.html");
         exit();
     } else {
         echo "Error: " . $conn->error;
@@ -42,7 +42,7 @@ $conn->close();
 <body class="loaded">
 
 <section id="hero" class="hero relative flex items-center justify-center text-center text-white min-h-screen bg-cover bg-center" 
-    style="background-image: url('hero_image.jpg'); background-size:contain;">
+    style="background-image: url('public/images/hero_image.jpg'); background-size:contain;">
 
     <!-- Dark Overlay for Better Readability -->
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
