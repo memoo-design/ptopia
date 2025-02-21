@@ -47,7 +47,6 @@ $conn->close();
     <!-- Dark Overlay for Better Readability -->
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 
-    <!-- Text Content Over Image -->
     <div class="relative z-10 max-w-2xl p-8">
         <h1 class="text-5xl font-bold">Welcome to <span class="text-pink-400">Petopia</span> 🐾</h1>
         <p class="text-lg mt-3">Every Pet Deserves a Loving Home! Join our community and help us to give pets the love they need.</p>
